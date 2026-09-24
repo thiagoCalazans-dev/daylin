@@ -9,6 +9,7 @@ O projeto está **em planejamento**. A aplicação ainda não foi implementada.
 - [Visão e decisões de design](design.md)
 - [Arquitetura proposta, domínios e rotas](architecture.md)
 - [Especificação do MVP e critérios de aceite](spec.md)
+- [Checklist das issues de implementação](check.md)
 - [Orientações para agentes](AGENTS.md)
 
 ## Arte
