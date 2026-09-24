@@ -1,6 +1,6 @@
 # Daylin — acompanhamento da implementação
 
-Cada item corresponde a uma issue do [planejamento do MVP](https://github.com/thiagoCalazans-dev/daylin/issues). Marque `[x]` quando a funcionalidade estiver implementada e atender aos critérios de aceite da issue; então encerre a issue no GitHub. Se a issue for encerrada sem implementação, mantenha o item desmarcado e registre o motivo nela.
+Cada item corresponde a uma issue do [planejamento do MVP](https://github.com/thiagoCalazans-dev/daylin/issues). Confira este checklist antes de todo push e inclua no mesmo push qualquer mudança de estado. Marque `[x]` quando a funcionalidade estiver implementada e atender aos critérios de aceite da issue; então encerre a issue no GitHub. Se a issue for encerrada sem implementação, mantenha o item desmarcado e registre o motivo nela.
 
 ## Checklist
 

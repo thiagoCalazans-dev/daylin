@@ -21,6 +21,19 @@ Criar um jogo de microlearning para estudar qualquer tema a partir de material e
 - Existe no máximo uma nova sessão por plano por dia local. Uma sessão incompleta pode ser retomada em outro dia; concluí-la impede iniciar outra no mesmo dia.
 - Todo código, identificador, nome de arquivo de código, pasta técnica, tabela, campo JSON, rota e endpoint deve estar em inglês. A documentação e a interface podem estar em português. Imagens históricas em `design/mascot/` mantêm seus nomes; cópias para uso no app devem receber nomes ingleses.
 
+## Fluxo de implementação das issues
+
+Quando o usuário solicitar a implementação de uma issue:
+
+1. Ler a issue, seus critérios de aceite, dependências e os documentos relevantes. Verificar o estado do repositório e partir de uma base atualizada que contenha as dependências necessárias.
+2. Criar **uma branch nova para essa issue**, com o número e um resumo do título em inglês no formato `codex/<number>-<issue-title-slug>` (por exemplo, `codex/1-set-up-the-nextjs-project`). Não reutilizar a branch de outra issue.
+3. Implementar o escopo da issue, executar as verificações pertinentes e atualizar a documentação afetada. Antes de **todo push**, conferir `check.md` e deixá-lo coerente com o estado real de todas as issues. Marcar um item somente quando seus critérios de aceite estiverem atendidos; se nada mudou, manter o arquivo como está. Incluir qualquer atualização necessária de `check.md` no mesmo commit e push da implementação.
+4. Apresentar ao usuário o resultado, as verificações, as limitações e o diff para revisão. **Pausar antes de criar qualquer commit** e perguntar se ele confirma o resultado ou deseja alterações. Se pedir mudanças, realizá-las e apresentar novamente antes de commitar.
+5. Somente após a confirmação explícita do usuário, criar o commit da issue e publicar a branch com `git push -u origin <branch>`, configurando o vínculo com a branch remota. Confirmar após o push que `check.md` publicado reflete o estado real. Informar o link da branch e o estado da issue. Não presumir que o push equivale à integração na branch principal.
+6. Perguntar se o usuário quer implementar a próxima issue. Iniciar a próxima apenas depois da autorização dele, repetindo este fluxo até concluir as issues desejadas.
+
+Este fluxo vale para **implementações de issues**. Edições de planejamento ou documentação solicitadas separadamente não iniciam uma issue por conta própria.
+
 ## Como manter a documentação
 
 - Distinguir decisões confirmadas de ideias ainda abertas. Não transformar uma sugestão em requisito sem confirmação do usuário.
